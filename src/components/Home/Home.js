@@ -10,12 +10,12 @@ const Home = () => {
     const loadedData = useLoaderData()
     const topics = loadedData.data;
     return (
-        <div>
-            <div class="card text-bg-dark header-style">
-                <img src={logo} class="card-img" alt="..." />
-                <div class="card-img-overlay d-flex flex-column justify-content-end">
+        <div >
+            <div className="card text-bg-dark header-style">
+                <img src={logo} className="card-img" alt="..." />
+                <div className="card-img-overlay d-flex flex-column justify-content-end">
                     <div className='text-center'>
-                        <p class="card-text  fs-5">Want to be a <span className='text-uppercase'>Web-Developer</span> ? Test your knowledge about some core concept of web-development by perticipating our quizes. We hope this well increase your knowledge and also incourage you to go step forword. </p>
+                        <p className="card-text  fs-5">Want to be a <span className='text-uppercase'>Web-Developer</span> ? Test your knowledge about some core concept of web-development by perticipating our quizes. We hope this well increase your knowledge and also incourage you to go step forword. </p>
                         <FontAwesomeIcon icon={faCircleChevronDown} type="button" className=' border-0 fs-1 text-info' ></FontAwesomeIcon>
                     </div>
                 </div>
