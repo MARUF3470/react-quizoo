@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Topic = ({ topic }) => {
-    console.log(topic)
+    //console.log(topic)
     const { logo, name, id, total } = topic
     return (
         <div className='col my-3'>
