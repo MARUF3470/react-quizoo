@@ -18,7 +18,7 @@ const Header = () => {
                             <NavLink className='mx-3 text-decoration-none fw-semibold fs-4' to='/'>Home</NavLink>
                             <NavLink className='mx-3 text-decoration-none fw-semibold fs-4' to='/statistics'>Statistics</NavLink>
                             <NavLink className='mx-3 text-decoration-none fw-semibold fs-4' to='/blog'>Blog</NavLink>
-                            <NavLink className='mx-3 text-decoration-none fw-semibold fs-4' to='/registration'>Registratiion</NavLink>
+                            <NavLink className='mx-3 text-decoration-none fw-semibold fs-4' to='/registration'>Registration</NavLink>
                         </div>
                     </div>
                 </div>
