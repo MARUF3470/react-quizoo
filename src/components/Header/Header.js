@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import logo from '../../favicon.png'
 const Header = () => {
     return (
@@ -15,10 +15,10 @@ const Header = () => {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav text-center ">
-                            <Link className='mx-3 text-decoration-none fw-semibold fs-4' to='/'>Home</Link>
-                            <Link className='mx-3 text-decoration-none fw-semibold fs-4' to='/statistics'>Statistics</Link>
-                            <Link className='mx-3 text-decoration-none fw-semibold fs-4' to='/blog'>Blog</Link>
-                            <Link className='mx-3 text-decoration-none fw-semibold fs-4' to='/registration'>Registratiion</Link>
+                            <NavLink className='mx-3 text-decoration-none fw-semibold fs-4' to='/'>Home</NavLink>
+                            <NavLink className='mx-3 text-decoration-none fw-semibold fs-4' to='/statistics'>Statistics</NavLink>
+                            <NavLink className='mx-3 text-decoration-none fw-semibold fs-4' to='/blog'>Blog</NavLink>
+                            <NavLink className='mx-3 text-decoration-none fw-semibold fs-4' to='/registration'>Registratiion</NavLink>
                         </div>
                     </div>
                 </div>

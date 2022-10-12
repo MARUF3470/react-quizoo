@@ -5,6 +5,7 @@ import Home from './components/Home/Home';
 import QuizField from './components/QuizField/QuizField';
 import ErrorPage from './components/ErrorPage/ErrorPage';
 import Statistics from './components/Statistics/Statistics';
+import Blog from './components/Blog/Blog';
 
 function App() {
   const router = createBrowserRouter([
@@ -26,7 +27,7 @@ function App() {
           },
           element: <Statistics></Statistics>
         },
-        { path: '/blog' },
+        { path: '/blog', element: <Blog></Blog> },
         {
           path: 'home/:quizID',
           loader: ({ params }) => {

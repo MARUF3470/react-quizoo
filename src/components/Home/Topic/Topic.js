@@ -10,7 +10,7 @@ const Topic = ({ topic }) => {
                 <img src={logo} className="card-img-top opacity-100 bg-dark" alt="..." />
                 <div className="card-body">
                     <h5 className="card-title">{name}</h5>
-                    <div className='d-flex justify-content-between'>
+                    <div className='flex-md-column-reverse flex-lg-row d-flex justify-content-between'>
                         <Link to={`home/${id}`}><button className='border-0 py-2 px-4 rounded bg-info text-white fw-semibold'>Start Quiz</button></Link>
                         <p className='fs-5 fw-semibold'>Total Questions: {total}</p>
                     </div>
