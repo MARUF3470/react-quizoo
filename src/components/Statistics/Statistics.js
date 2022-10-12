@@ -12,8 +12,8 @@ const Statistics = () => {
             <h2 className='text-center'>Quiz Ratio</h2>
             <div className='d-flex justify-content-center'>
                 <LineChart
-                    width={600}
-                    height={400}
+                    width={400}
+                    height={300}
                     data={data}
                     margin={{
                         top: 5,
